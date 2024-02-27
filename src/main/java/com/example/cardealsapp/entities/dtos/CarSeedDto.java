@@ -55,4 +55,6 @@ public class CarSeedDto {
     public void setRegisterOn(String registerOn) {
         this.registerOn = registerOn;
     }
+
+
 }

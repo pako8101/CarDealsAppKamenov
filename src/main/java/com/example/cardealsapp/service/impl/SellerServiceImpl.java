@@ -84,4 +84,10 @@ public class SellerServiceImpl implements SellerService {
 
         return sb.toString();
     }
+
+    @Override
+    public Seller finById(Long id) {
+        return sellerRepository.findById(id)
+                .orElseThrow();
+    }
 }

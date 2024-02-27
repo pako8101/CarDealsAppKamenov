@@ -1,6 +1,8 @@
 package com.example.cardealsapp.service;
 
 
+import com.example.cardealsapp.entities.Seller;
+import com.example.cardealsapp.entities.dtos.SellerIdDto;
 import jakarta.xml.bind.JAXBException;
 
 import java.io.IOException;
@@ -14,4 +16,5 @@ public interface SellerService {
 
     String importSellers() throws IOException, JAXBException;
 
+    Seller finById(Long id);
 }
