@@ -1,7 +1,7 @@
 package com.example.cardealsapp.config;
 
 import com.example.cardealsapp.util.ValidationUtil;
-import com.example.cardealsapp.util.ValidationUtilImpl;
+import com.example.cardealsapp.util.impl.ValidationUtilImpl;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.modelmapper.Converter;

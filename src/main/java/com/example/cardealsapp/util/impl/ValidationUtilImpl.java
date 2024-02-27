@@ -1,5 +1,6 @@
-package com.example.cardealsapp.util;
+package com.example.cardealsapp.util.impl;
 
+import com.example.cardealsapp.util.ValidationUtil;
 import jakarta.validation.Validation;
 import jakarta.validation.Validator;
 import org.springframework.stereotype.Component;
